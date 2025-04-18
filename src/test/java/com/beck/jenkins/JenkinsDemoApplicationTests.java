@@ -16,6 +16,7 @@ class JenkinsDemoApplicationTests {
     void contextLoads() {
         logger.info("Test case executing... ");
         logger.info("Test case executing second log statement... ");
+        logger.info("Beck project pipeline executing... ");
         assertEquals(true,true);
     }
 
