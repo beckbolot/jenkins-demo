@@ -29,7 +29,7 @@ public class FlightWithPassengerTest {
 
         Passenger passenger2 = new Passenger("2222", "Mike Jo", "GB");
 
-        assertThrows(RuntimeErrorException.class,
+        assertThrows(RuntimeException.class,
                 ()->flight.addPassenger(passenger2));
     }
 
